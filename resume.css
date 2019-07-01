@@ -1,0 +1,169 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    background-color: #e6eaf9;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    margin: 0%;
+}
+
+/*     ////   SIDEBAR    ////     SIDEBAR     ////     SIDEBAR     */
+.sidebar {
+    position: fixed;
+    background-color:#a9b6e9;
+    z-index: 1;
+    height: 100%;
+    width: 30%;
+    top: 0;
+    right: 0;
+}
+
+.sidebar .profile-img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: -7%;
+}
+
+ .sidebar .sidebar-text {
+    text-align: center;
+    color: #ffffff;
+    margin: 50% auto ;
+}
+
+.sidebar-text .name-1 {
+    margin-bottom: -10%;
+}
+
+.sidebar-text .mail {
+    width: 1.5rem;
+    /* color: white; FIX!!!!!! */
+}
+
+.sidebar-text .email{
+    margin-top: 6%;
+}
+
+.sidebar .sidebar-text .fab {
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+    margin-top: 3%;
+    color: #ffffff;
+}
+
+/* //////  ///////   ////// */
+
+.container-left {
+    position: absolute;
+    background-color: #e6eaf9;
+    width: 60%;
+    margin-left: 4%;
+}
+
+.container-left p {
+    text-align: justify;
+    letter-spacing: 0.006rem;
+}
+
+/* NAME BOLDED TEXT */
+
+.sidebar h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+}
+
+
+#name {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    margin-top: -3%;
+    margin-right: -20%;
+}
+
+/* //////  ///////   ////// */
+
+
+/* INTRODUCTION "Hola! I'm Desiree!" */
+
+.intro  {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#intro {
+    letter-spacing: 0.5rem;
+    margin-bottom: 1%;
+}
+
+.intro h3 {
+    font-style: bold;
+    margin-top: -7%;
+}
+
+/* //////  ///////   ////// */
+
+
+/* BOLDED TEXT SUBTITLES */
+
+.about h3, .coding h3, .science h3, .art h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    margin-bottom: -2%;
+}
+/* //////  ///////   ////// */
+
+
+/* PAGE CONTENT. BACKGROUND. JOURNEY. SCIENCE AND EDUCATION. ETC. */
+.container-left {
+    font-size: 0.9rem;
+    margin-left: 10%;
+    width: 50%;
+    padding-bottom: 4rem;
+}
+
+.coding img {
+    float: left;
+    width: 8rem;
+    padding: 3%;
+}
+
+.science img {
+    float: right;
+    width: 8rem;
+    margin-top: -8%;
+    margin-bottom: -5%;
+    padding: 3%;
+}
+.art img {
+    float: left;
+    width: 8rem;
+    padding: 3%;
+    margin-top: -2%;
+}
+/* //////  ///////   ////// */
+
+/*    FOOTER     ////       FOOTER       ///      FOOTER     */
+hr {
+    width: 30%;
+    margin-top: 10%;
+    border-top: 1px dotted;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+/* //////  ///////   ////// */
